@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+    <title>Proksy - лучший магазин электроники</title>
+<body>
+ <style>
+       /* Обнуляю отступы и убираю маркеры у списков. */
+      ul, li {
+         margin:0;
+          padding:0;
+          list-style-type:none;  
+      }
+    
+       /* Задаю параметры для основного, родительского блока, меню выпадающего списка. */
+      #menu {
+          display:block;
+         position:absolute;
+          top:20px;
+            left:20px;
+    
+        }
+
+        /* Задаю стили для блоков выпадающего списка. */
+        #menu > li {
+           display:inline-block;
+          height:20px;
+        /* Считаем координаты относительно исходного места. */
+        position:relative;
+     }
+    
+    /* Задаю стили, чтобы скрыть дочерние блоки выпадающего списка. Ну и немного украшаю. */
+    #menu > li > ul {
+        position:absolute;
+        top:20px;
+         left: 10px;
+        display:none;
+        background-color: bisque;
+        border-radius: 5px;
+        width: 185px;
+        font-size: 14px;
+        padding: 10 0 10 10;
+     }
+    
+    /* Так я делаю прежде скрытую часть видимой — при наведении курсора. */
+    #menu > li:hover > ul {
+        display:block;  
+    }
+</style>
+<div class = 'main'>
+    <p style="text-align: left;">
+        <ul id="menu" style="float:left;">
+        <li><a href="#">Каталог</a></li>
+        <ul>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Компьютеры</a></li>
+            <li><a href="#">Холодильники</a></li>
+        </ul>
+        </ul>
+    </p>
+    <img src="https://e7.pngegg.com/pngimages/359/427/png-clipart-shopping-cart-software-online-shopping-shopping-cart-angle-retail.png" style="width:75px; height:50px;float:center;"> 
+</div>
+</body>
+</html>
 
