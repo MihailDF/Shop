@@ -15,8 +15,12 @@
     cursor: pointer;
 }
 .button-buy{
+  height: 100px;
+  width: 200px;
+  font-size: xx-large;
   cursor: pointer;
   background-color: orange;
+
 }
 .card-describe{
     display:flex;
@@ -41,22 +45,25 @@
 .iphone{
   border: 2px solid black; 
   border-radius: 20px; 
-  margin-right: 1000px;
+  margin-right: 1450px;
 }
 .pc{
   border: 2px solid black; 
   border-radius: 20px; 
-  margin-right: 1000px;
+  margin-right: 1450px;
+
 }
 .holodos{
   border: 2px solid black; 
   border-radius: 20px; 
-  margin-right: 1000px;
+  margin-right: 1300px;
+
 }
 .sigma{
   border: 2px solid black; 
   border-radius: 20px; 
-  margin-right: 1000px;
+  margin-right: 1450px;
+
 }
 
 
